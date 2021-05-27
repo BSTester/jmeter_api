@@ -19,8 +19,8 @@ with open('README.md', 'r') as f:
 
 create_manifest()
 setup(
-    name='jmeter_api',
-    version='0.5',
+    name='pyjmeter',
+    version='0.5.1',
     description='JMeter test plan builder',
     long_description_content_type='text/markdown',
     long_description=README,

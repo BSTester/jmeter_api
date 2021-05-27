@@ -1,7 +1,5 @@
-<elementProp name="searchTxt" elementType="HTTPArgument">
-    <boolProp name="HTTPArgument.always_encode"></boolProp>
-    <stringProp name="Argument.value"></stringProp>
-    <stringProp name="Argument.metadata"></stringProp>
-    <boolProp name="HTTPArgument.use_equals"></boolProp>
-    <stringProp name="Argument.name"></stringProp>
+<elementProp name="file" elementType="HTTPFileArg">
+    <stringProp name="File.path"></stringProp>
+    <stringProp name="File.paramname"></stringProp>
+    <stringProp name="File.mimetype"></stringProp>
 </elementProp>
